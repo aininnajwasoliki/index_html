@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #bfe3e8;
+    display: flex;
+    align-items: center;
+    padding: 20px;          
+    height: 150px;        
+}
+
+.logo {
+    width: 130px;           
+    height: auto;
+    margin-left: 20px;
+}
+
+.judul {
+    flex: 1;
+    text-align: center;
+}
+
+.judul h2 {
+    margin: 0;
+    font-size: 24px;        
+}
+
+.judul p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+}
+
+.menu {
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.menu h3 {
+    text-align: center;
+}
+
+.menu a {
+    display: block;
+    background-color: #c62828;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    margin: 5px 0;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h3 {
+    text-align: center;
+}
+
+.content label {
+    display: block;
+    margin-top: 10px;
+}
+
+.content input,
+.content textarea {
+    width: 100%;
+    padding: 6px;
+}
+
+.content button {
+    margin-top: 15px;
+    padding: 6px;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.footer {
+    background-color: #bfe3e8;
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+}
